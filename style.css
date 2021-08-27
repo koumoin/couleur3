@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+}
+html, body {
+    padding: 0;
+    margin: 0;
+    height: 40vh;
+}
+
+.haut {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 5rem;
+}
+.toutcentre {
+    display: flex;
+    justify-content: space-between;
+}
+.centre {
+    display: flex;
+    align-items: center;
+}
+
+.gauche {
+    padding-left: 2rem;
+}
+.droite {
+  padding-right: 2rem;
+}
+.bas {
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+    margin-bottom: 20px;
+}
+.bas1, .bas2, .bas3 {
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  padding: 50px;
+  text-transform: uppercase;
+}
+
+.bas1 {
+background-color: blue;
+}
+.bas2{
+background-color: yellow;
+}
+.bas3 {
+background-color: turquoise;
+}
